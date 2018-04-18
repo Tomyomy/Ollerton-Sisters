@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B2F0A0B9-275D-5643-A8F9-54F71F816E10}</ProjectGuid>
+    <ProjectGuid>{AD698970-022B-66A8-BB80-C45D4554F077}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -70,8 +70,8 @@
      <Compile Include="Assets\PauseController\Scripts\PauseManager.cs" />
      <Compile Include="Assets\PauseController\Scripts\TimePause.cs" />
      <Compile Include="Assets\Resources\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
-     <Compile Include="Assets\Scripts\TextShow.cs" />
-     <Compile Include="Assets\TextShow.cs" />
+     <Compile Include="Assets\Scripts\TextShow2.cs" />
+     <Compile Include="Assets\Scripts\TextShowQ.cs" />
      <Compile Include="Assets\WorldSkies\Demo\Scripts\LookCamera.cs" />
      <Compile Include="Assets\WorldSkies\Demo\Scripts\SkyboxChanger.cs" />
      <None Include="Assets\Medieval Bridge\Shaders\Double sided.shader" />
@@ -182,7 +182,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{6F114076-A0C1-2D09-C40D-EED15E6FE4E5}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{DE195D57-6DFA-A20D-7C2F-BC2C3A300C35}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

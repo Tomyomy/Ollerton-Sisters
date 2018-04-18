@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ollerton-Sisters", "Assembly-CSharp-firstpass.csproj", "{DE195D57-6DFA-A20D-7C2F-BC2C3A300C35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ollerton-Sisters", "Assembly-CSharp.csproj", "{AD698970-022B-66A8-BB80-C45D4554F077}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ollerton-Sisters", "Assembly-CSharp-Editor-firstpass.csproj", "{C7A22EF6-FF36-EF49-E28B-711AD0D73BE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE195D57-6DFA-A20D-7C2F-BC2C3A300C35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE195D57-6DFA-A20D-7C2F-BC2C3A300C35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE195D57-6DFA-A20D-7C2F-BC2C3A300C35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE195D57-6DFA-A20D-7C2F-BC2C3A300C35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD698970-022B-66A8-BB80-C45D4554F077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD698970-022B-66A8-BB80-C45D4554F077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD698970-022B-66A8-BB80-C45D4554F077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD698970-022B-66A8-BB80-C45D4554F077}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7A22EF6-FF36-EF49-E28B-711AD0D73BE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7A22EF6-FF36-EF49-E28B-711AD0D73BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7A22EF6-FF36-EF49-E28B-711AD0D73BE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7A22EF6-FF36-EF49-E28B-711AD0D73BE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

@@ -38,12 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.29703987, g: 0.24627283, b: 0.23225415, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -89,7 +89,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 112000001, guid: 28e2bf48edc26064088c947a6908d5bb,
+  m_LightingDataAsset: {fileID: 112000002, guid: 28e2bf48edc26064088c947a6908d5bb,
     type: 2}
   m_UseShadowmask: 0
 --- !u!196 &4
@@ -1252,7 +1252,7 @@ GameObject:
   - component: {fileID: 207431279}
   - component: {fileID: 207431278}
   - component: {fileID: 207431277}
-  - component: {fileID: 207431282}
+  - component: {fileID: 207431280}
   m_Layer: 0
   m_Name: TextTrigger
   m_TagString: Untagged
@@ -1313,6 +1313,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 207431276}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &207431280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 207431276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 708bb9e353ad80149901689b24d36c9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &207431281
 Transform:
   m_ObjectHideFlags: 0
@@ -1326,17 +1337,6 @@ Transform:
   m_Father: {fileID: 1216016197}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &207431282
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 207431276}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3588fc7205cf0e24999453c644276da7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &227687129
 Prefab:
   m_ObjectHideFlags: 0
@@ -6788,7 +6788,7 @@ GameObject:
   - component: {fileID: 1444596299}
   - component: {fileID: 1444596298}
   m_Layer: 0
-  m_Name: MiniScene
+  m_Name: Locked
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6801,8 +6801,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1444596296}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 238.62, y: 30.66, z: 358.93}
-  m_LocalScale: {x: 1, y: 13, z: 8}
+  m_LocalPosition: {x: 239.36, y: 30.66, z: 358.93}
+  m_LocalScale: {x: 1.5, y: 13, z: 8}
   m_Children: []
   m_Father: {fileID: 1216016197}
   m_RootOrder: 1
@@ -6848,7 +6848,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1444596296}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
